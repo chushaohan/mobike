@@ -1,0 +1,47 @@
+html,body,.swiper-container,.swiper-slide{width: 100%;height: 100%}
+body{font-size: 16px;line-height: 1.42857143}
+.swiper-slide{background-size: cover;background-position: center;background-repeat: no-repeat}
+.container-md{width: 1040px;padding: 0 20px;margin: auto}
+/*头部 line-height: 49()没有单位时，表示是行高字体大小的多少倍*/
+.header{position: absolute;top:0;left:50%;z-index: 10;margin-left: -540px;padding: 15px 0;}
+.logo-links{float: left;padding: 8px 0}
+.nav-links{float: right;line-height: 49px}
+.nav-links>li {float: left}
+.nav-links>li a{color: #fff;padding: 8px 20px}
+.swiper-container{position: relative}
+.header-wrap{position: absolute;top:50%;z-index: 10;margin-top:-73px}
+.font-logo{font-size: 66px;color:#fff;margin-bottom: 20px;font-family: Overpass, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', Arial, Verdana, sans-serif;letter-spacing: -2.688px}
+.header-wrap .btn{padding: 14px 26px;font-size: 22px;border-radius: 6px;background-color: rgba(0, 0, 0, .6);color: #fff;font-weight: bold;letter-spacing:2px}
+.header-wrap .btn:hover{background:rgba(0,0,0,0.8)}
+.news{height: 22px;background-color: rgba(122, 112, 101, 0.4);position: absolute;bottom: 0;left: 0;z-index: 10;width: 100%;padding: 10px;}
+.news a{width: 1080px;color: #fff;font-weight: 200}
+.news .icon{display: inline-block;font-size: 12px;height: 18px;line-height: 18px;border-radius: 4px;background: linear-gradient(to bottom,#ec614f 0%,#ff2e2e 100% );padding: 0 8px;color: #fff;margin-right: 8px;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);font-weight: 400}
+/*整体左移把最左边的边框隐藏起来*/
+.promos{height: 260px;margin-left: -2px;border-top: 2px solid #fff}
+.promos .hero{float: left;width: 25%;height: 100%;background-size: cover;background-position: center;background-repeat: no-repeat;text-align: center;padding: 37px;box-sizing: border-box;font-size: 24px;border-left: 2px solid #fff;}
+.promos a{color: #fff;}
+
+.mink-link{width: 100%;height: 140px;border-bottom: 1px solid #eee;border-top: 1px solid #eee}
+.mink-link li{float: left;padding: 45px 0;width: 220px;margin-right: 190px}
+.mink-link .last{margin-right: 0}
+.mink-link .icon{width: 50px;height: 50px;margin-right: 10px;background-repeat: no-repeat;background-size: contain;background-position: center;float: left}
+.mink-link h4{font-weight: normal}
+.mink-link p{font-weight: 300}
+.fo{width: 100%;border-bottom: 1px solid #eee;}
+.footer .top{padding: 45px 0;overflow: hidden;}
+.footer .top ul{margin-right: 70px;float: left}
+.footer .top li{height: 37px;line-height: 37px;font-weight: 300}
+.footer .top li .pic{width: 160px;height: 100%;margin-bottom: 10px;background-repeat: no-repeat;background-size: contain;background-position: center;display: block}
+.footer  a{color: #000;}
+.footer a:hover{color: #ff1d39}
+.footer .top dl{float: left;font-weight: 300;margin-left: 110px}
+.footer dt,.footer dd{height: 37px;line-height: 37px;}
+.footer .top dt{font-weight: bold}
+.footer .bot{font-size: 12px;color: #aaa}
+.bot .left{float: left}
+.footer .bot span{display: inline-block;width: 15px;height: 15px;vertical-align: -3px;background-position: center;background-size: contain;background-repeat: no-repeat}
+.footer .bot img{width: 40px;height: 40px;margin-right: 100px;float: right;}
+
+
+
+
